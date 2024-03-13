@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task
 {
-    class MultiBuilding : Building
+    sealed class MultiBuilding : Building
     {
         public int Storeys;
         public MultiBuilding(string adress, double lenght, double width, double height, int storeys)
