@@ -14,7 +14,8 @@ namespace Task
         {
             Storeys = storeys;
         }
-        public string Print() {
+        public string Print()
+        {
             string res = base.Print();
             res += $"\nЭтажей в здании - {Storeys}";
             return res;

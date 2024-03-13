@@ -13,7 +13,7 @@ namespace Task
         public double Width { get; set; }
         public double Length { get; set; }
 
-        public Building(string adress,double length, double width, double height) 
+        public Building(string adress, double length, double width, double height)
         {
             Height = height;
             Adress = adress;
@@ -28,5 +28,5 @@ namespace Task
 
     }
 
-    
+
 }

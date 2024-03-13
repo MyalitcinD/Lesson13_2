@@ -15,6 +15,13 @@ namespace Task
             MultiBuilding multibuilding = new MultiBuilding("Кронверский проспект", 25, 45, 15, 5);
             Console.WriteLine();
             Console.WriteLine(multibuilding.Print());
+
+
+            multibuilding.Adress = multibuilding.Adress + ", д. 49.";
+            multibuilding.Storeys = multibuilding.Storeys - 1;
+            multibuilding.Height = multibuilding.Height - 0.5;
+            Console.WriteLine();
+            Console.WriteLine(multibuilding.Print());
             Console.ReadKey();
         }
     }
